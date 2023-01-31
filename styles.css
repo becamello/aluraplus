@@ -168,3 +168,96 @@ body {
     background-color: var(--branco-principal);
     color: var(--cor-de-fundo);
 }
+
+.img__telas-mobile {
+    display: none;
+}
+
+/* Mobile */
+
+
+@media  screen and (max-width: 768px) {
+    .container {
+        display: block;
+        background-image: none;
+    }
+
+    .container__imagem {
+        width: 70vw;
+    }
+    
+    .container__titulo {
+        margin-top: 100px;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .container__botao {
+        padding: 1em;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 50vw;
+    }
+
+    .descricao__titulo {
+        font-size: 20px;
+    }
+
+    .descricao__texto {
+        font-size: 15px;
+    }
+
+    .dispositivos__titulo {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .img__dispo {
+        width: 180px;
+        margin-top: 0.2em;
+    }
+
+    #img__telas {
+        display: none;
+    }
+
+    .img__telas-mobile {
+        display: flex;
+    }
+
+    .secundario {
+        display: block;
+        align-items: center;
+    }
+
+    .secundario__imagem {
+        display: inline-block;
+    }
+
+    .lista__item {
+        font-size: 18px;
+    }
+    .rodape__lista {
+        display: block;
+        font-size: 1em;
+    }
+
+    .rodape a {
+        display: none;
+    }
+}
